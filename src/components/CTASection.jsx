@@ -15,9 +15,9 @@ const CtaSection = () => {
           Contact us today to discover how we can meet your textile sourcing
           needs!
         </h2>
-        <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold transition transform hover:scale-105">
+        {/* <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold transition transform hover:scale-105">
           Contact Us
-        </button>
+        </button> */}
       </div>
     </section>
   );
