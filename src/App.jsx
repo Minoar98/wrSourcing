@@ -2,13 +2,14 @@ import { useState } from "react";
 import HeroSlider from "./components/HeroSlider";
 import ServicesSection from "./components/ServiceSection";
 import VisionSection from "./components/VisionSection";
-import CTASection from "./components/CtaSection";
+
 import AdvantagesSection from "./components/AdvantagesSection";
 import GallerySection from "./components/GallerySection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import AboutSection from "./components/AboutSection";
 import Navigation from "./components/Navigation";
+import CtaSection from "./components/CtaSection";
 
 const App = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const App = () => {
       <ServicesSection />
       <VisionSection />
       <AboutSection />
-      <CTASection />
+      <CtaSection />
       <AdvantagesSection />
       <GallerySection />
       <ContactSection />
