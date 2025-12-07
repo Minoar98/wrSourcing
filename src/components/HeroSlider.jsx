@@ -67,7 +67,10 @@ const HeroSlider = () => {
 
       <div className="relative z-10 text-center px-4 max-w-4xl">
         {/* <img src={logo} alt="WR Sourcing Logo" className="h-12 w-auto" />; */}
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+        <h1
+          className="text-5xl md:text-6xl font-bold mb-6"
+          style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}
+        >
           <span className="text-white">{slides[currentSlide].title}</span>
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
