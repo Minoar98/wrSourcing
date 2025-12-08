@@ -23,7 +23,6 @@ const ContactInfo = () => {
             <p className="text-gray-400">+88 01715 254277</p>
             <p className="text-gray-400">+27 76 101 7314</p>
             <p className="text-gray-400">+88 01913 286550</p>
-            <p className="text-gray-400">+88 01773 425022</p>
           </div>
         </div>
 
@@ -36,7 +35,6 @@ const ContactInfo = () => {
             <p className="text-gray-400">doza@wrsourcing.com</p>
             <p className="text-gray-400">nelisa@wrsourcing.com</p>
             <p className="text-gray-400">abir@wrsourcing.com</p>
-            <p className="text-gray-400">sweety@wrsourcing.com</p>
           </div>
         </div>
 
