@@ -8,7 +8,10 @@ const Navigation = ({ mobileMenuOpen, setMobileMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <img src={logo} alt="WR Sourcing Logo" className="h-12 w-auto" />
-            <div className="font-neuropol text-white text-2xl" style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}>
+            <div
+              className="font-neuropol text-white text-2xl"
+              style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}
+            >
               WIDE RANGE SOURCING
             </div>
           </div>
