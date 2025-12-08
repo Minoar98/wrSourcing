@@ -19,35 +19,35 @@ const Navigation = ({ mobileMenuOpen, setMobileMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
-              className="text-gray-300 hover:text-orange-500 transition"
+              className="text-gray-300 hover:text-orange-500 transition font-bold"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-gray-300 hover:text-orange-500 transition"
+              className="text-gray-300 hover:text-orange-500 transition font-bold"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-gray-300 hover:text-orange-500 transition"
+              className="text-gray-300 hover:text-orange-500 transition font-bold"
             >
               Services
             </a>
             <a
               href="#gallery"
-              className="text-gray-300 hover:text-orange-500 transition"
+              className="text-gray-300 hover:text-orange-500 transition font-bold"
             >
               Gallery
             </a>
             <a
               href="#contact"
-              className="text-gray-300 hover:text-orange-500 transition"
+              className="text-gray-300 hover:text-orange-500 transition font-bold"
             >
               Contact
             </a>
-            <button className="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full transition">
+            <button className="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full transition font-bold">
               Get Started
             </button>
           </div>
