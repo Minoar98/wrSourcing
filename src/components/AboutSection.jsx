@@ -6,15 +6,13 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           {/* Text column - on small screens this will be below the image */}
           <div className="order-2 md:order-1 p-4 md:p-8 flex flex-col justify-center">
-            <h3
-              className="font-neuropol text-white text-2xl"
-              style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}
-            >
-              WR Sourcing
-            </h3>
             <h1 className="text-white text-3xl">who we are </h1>
 
             <p className="text-gray-300 mb-6 leading-relaxed">
+              <h3 style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}>
+                {" "}
+                WIDE RANGE SOURCING
+              </h3>
               is an organization with highly motivated, discipline and
               well-trained team members who constantly serve clients with
               professionalism and respect. Our services touch every aspect of
@@ -27,9 +25,9 @@ const AboutSection = () => {
               clients and associates is the booster fuel that propels us
               forward.
             </p>
-            <h1 className="text-white text-3xl"> Social responsibilities</h1>
+            <h1 className="text-gray-300 text-3xl"> Social responsibilities</h1>
             <h3
-              className="font-neuropol text-white text-2xl"
+              className="font-neuropol text-gray-300  "
               style={{ fontFamily: "'Neuropol', Arial, sans-serif" }}
             >
               WIDE RANGE SOURCING
@@ -47,9 +45,9 @@ const AboutSection = () => {
               various communities with their basic amenities. We exemplify the
               spirit of corporate responsibility
             </p>
-            <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold transition">
+            {/* <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold transition">
               Learn More
-            </button>
+            </button> */}
           </div>
 
           <div className="order-1 md:order-2 rounded-lg overflow-hidden flex items-center justify-center bg-white p-4">
