@@ -3,6 +3,9 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-6 md:px-12 lg:px-20 bg-gray-800">
       <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-bold text-center mb-12 text-orange-500">
+          About us
+        </h2>
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           {/* Text column - on small screens this will be below the image */}
           <div className="order-2 md:order-1 p-4 md:p-8 flex flex-col justify-center">
